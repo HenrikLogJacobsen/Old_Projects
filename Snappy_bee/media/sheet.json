@@ -1,0 +1,51 @@
+{
+
+"images": [
+    "media/sheet.png"
+],
+
+"framerate": 20,
+"frames": [
+    [1, 1, 1850, 1250, 0, 0, -26],
+    [1, 1253, 1920, 295, 0, 0, 0],
+    [1853, 1, 105, 386, 0, 0, 0],
+    [1853, 389, 105, 386, 0, 0, 0],
+    [1853, 777, 137, 133, 0, 0, 0],
+    [1853, 912, 129, 116, 0, -1, 0],
+    [1853, 1030, 113, 75, 0, 0, 0],
+    [1853, 1107, 71, 68, 0, 0, 0],
+    [1853, 1177, 69, 68, 0, 0, 0],
+    [1, 1550, 919, 465, 0, -5, -9],
+    [922, 1550, 486, 378, 0, -14, -6],
+    [1410, 1550, 334, 241, 0, 0, 0],
+    [1410, 1793, 303, 227, 0, 0, 0],
+    [1715, 1793, 302, 169, 0, 0, 0],
+    [1746, 1550, 260, 113, 0, 0, 0],
+    [1746, 1665, 262, 112, 0, -1, 0]
+],
+
+"animations": {
+    "bgroundnoblu": { "frames": [0] },
+    "floor": { "frames": [1] },
+    "tree": { "frames": [2] },
+    "treedown": { "frames": [3] },
+    "beetap": { "frames": [4] },
+    "replay": { "frames": [5] },
+    "arrow": { "frames": [6] },
+    "playpausesmall": { "frames": [7] },
+    "pause": { "frames": [8] },
+    "title2": { "frames": [9] },
+    "gameover": { "frames": [10] },
+    "scoreboard": { "frames": [11] },
+    "beewithhand": { "frames": [12] },
+    "beeingame": { "frames": [13] },
+    "startbutton": { "frames": [14] },
+    "scorebutton": { "frames": [15] }
+},
+
+"texturepacker": [
+        "SmartUpdateHash: $TexturePacker:SmartUpdate:5c6861cb146493b0ddd99720bc3c518f:83474440628d37ef68ca262e94e1b16f:9c44ecd7e9a522007eaff2949095bc1d$",
+        "Created with TexturePacker (https://www.codeandweb.com/texturepacker) for EaselJS"
+]
+
+}

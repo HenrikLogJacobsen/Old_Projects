@@ -1,0 +1,67 @@
+body {
+    font-family: "Ubuntu", sans-serif;
+    background-image: url("../media/background.png");
+    background-color: rgb(159, 209, 255);
+}
+
+/* General Containers */
+header, nav, footer {
+    padding: .5em;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+}
+
+/* General Text */
+#playerMessage, h1, p {
+    font-size: 36px;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px black;
+    font-weight: bolder;
+}
+
+#footerP {
+    font-size: 15px;
+    font-weight: 100;
+}
+
+canvas {
+    border: 3px solid grey;
+    background-color: white;
+    position: absolute;
+    left: 50%;
+    margin-left: -300px;
+    top: 50%;
+    margin-top: -200px;
+}
+
+#playerMessage {
+    z-index: 1;
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    opacity: 0;
+    transition: 2s;
+    top: 0;
+}
+
+#sproutIdxDiv {
+    display: none;
+}
+
+.animated {
+    animation: fade 3s ease;
+}
+
+header, footer, p {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+
+@keyframes fade {
+    0%, 100% { opacity: 0; }
+    25%, 75% { opacity: 1; }
+}
